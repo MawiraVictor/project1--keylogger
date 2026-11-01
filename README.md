@@ -1,4 +1,4 @@
-# Safe keyboard demo (sanitized)
+# Safe keyboard demo
 
 This repository was previously a keystroke logging sample, which is a malicious pattern and is not acceptable for public or shared code.
 
