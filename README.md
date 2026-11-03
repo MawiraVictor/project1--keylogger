@@ -10,6 +10,8 @@ The project has been sanitized to remove the harmful behavior. It now contains a
 - Does not store keystrokes to disk.
 - Does not transmit any user input.
 - Uses a harmless stub for educational and demonstration purposes only.
+- 
+---
 
 ## Important
 
